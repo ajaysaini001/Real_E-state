@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: blanchedalmond;
+  }
+  .div{
+    width: 100%;
+    height: 100%;
+  
+  }
+   
+  .search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  
+  .icon{
+    position: absolute;
+    width: 30px;
+    margin-left: -25%;
+    height: 45px;
+    cursor: pointer;
+  
+  }
+  input{
+    width: 25%;
+    height: 45px;
+    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .button{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    
+    
+  } 
+  
+   .firebase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .firebase-data{
+    width: 28%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  .contacticon{
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  
+    
+  }
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+  
